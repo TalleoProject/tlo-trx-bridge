@@ -1,0 +1,47 @@
+{
+    "tron" : {
+        "enabled": true,
+        "contractABI": "<replace with full path to contract ABI definition file>",
+        "contractAddress": "<replace with contract's TRX address>",
+        "ownerKey": "<replace with TRX private key of contract owner>",
+        "ownerAddress": "<replace with wallet address of contract owner>",
+        "httpsNode": "https://nile.trongrid.io/",
+        "confirmations": 10,
+        "fee": 10000000,
+        "startBlockTime": 0,
+        "blacklist": []
+    },
+    "logging" : {
+        "files": {
+            "level": "info",
+            "directory": "logs",
+            "flushInterval": 5
+        },
+        "console": {
+            "level": "info",
+            "colors": true
+        }
+    },
+    "redis" : {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    "talleo" : {
+        "enabled": true,
+        "bridgeAddress": "<replace with TLO address of bridge wallet>",
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 33888,
+            "ssl": false
+        },
+        "wallet": {
+            "host": "127.0.0.1",
+            "port": 33777,
+            "ssl": false,
+            "password": "<replace with RPC password>"
+        },
+        "confirmations": 10,
+        "fee": 1,
+        "startHeight": 0
+    }
+}

@@ -1,0 +1,12 @@
+config.json
+contract/*.abi
+contract/SafeMath.sol
+/logs
+/node_modules
+/package-lock.json
+/website/TronWeb.js
+/website/TronWeb.js.map
+/website/WrappedTalleoToken.js
+/dump.rdb
+*.bak
+*.save
