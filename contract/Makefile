@@ -11,3 +11,6 @@ TokenSwap_sol_TokenSwap.abi: TokenSwap.sol ITRC20.sol SafeMath.sol
 
 BalancedSwap_sol_BalancedSwap.abi: BalancedSwap.sol ITRC20.sol SafeMath.sol
 	@../node_modules/solc/solcjs --abi BalancedSwap.sol ITRC20.sol SafeMath.sol
+
+TokenMarket_sol_TokenMarket.abi: TokenMarket.sol ITRC20.sol SafeMath.sol
+	@../node_modules/.bin/solcjs --base-path . --abi TokenMarket.sol ITRC20.sol SafeMath.sol
